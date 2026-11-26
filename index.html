@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Jornada Escolar & Portfólio de Redações</title>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho / Banner -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img src="assets/perfil.jpg" alt="Foto de Perfil" id="avatar-img" onerror="this.src='https://via.placeholder.com/150/4f46e5/ffffff?text=Seu+Nome'">
+            </div>
+            <h1>Minha Trajetória Escolar</h1>
+            <p class="subtitle">Do 1º Ano do Fundamental ao 3º Ano do Ensino Médio</p>
+            <nav class="nav-links">
+                <a href="#linha-do-tempo"><i class="fa-solid fa-timeline"></i> Linha do Tempo</a>
+                <a href="#redacoes"><i class="fa-solid fa-feather-pointed"></i> Redações</a>
+                <a href="#galeria"><i class="fa-solid fa-images"></i> Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Seção 1: Linha do Tempo Escolar -->
+        <section id="linha-do-tempo" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Linha do Tempo Escolar</h2>
+            <p class="section-desc">Clique nos cards para expandir e ler as memórias marcantes de cada ano.</p>
+
+            <div class="timeline">
+                
+                <!-- Ensino Fundamental I -->
+                <div class="timeline-category">Ensino Fundamental I</div>
+
+                <!-- 1º Ano -->
+                <div class="timeline-item" data-year="1-fundamental">
+                    <div class="timeline-dot"><i class="fa-solid fa-shapes"></i></div>
+                    <div class="timeline-content">
+                        <span class="badge">1º Ano Fundamental</span>
+                        <h3>Aprendendo os Primeiros Passos</h3>
+                        <p class="preview">O início da alfabetização, os primeiros amigos e a adaptação à rotina da escola...</p>
+                        <div class="details hidden">
+                            <p>[Adicione aqui sua história completa do 1º ano: professores inesquecíveis, primeiras tarefas e brincadeiras no recreio.]</p>
+                            <img src="assets/1-ano.jpg" alt="1º Ano" onerror="this.src='https://via.placeholder.com/400x200/e0e7ff/3730a3?text=Foto+do+1º+Ano'">
+                        </div>
+                        <button class="btn-toggle">Ver Mais</button>
+                    </div>
+                </div>
+
+                <!-- 2º Ano -->
+                <div class="timeline-item" data-year="2-fundamental">
+                    <div class="timeline-dot"><i class="fa-solid fa-book-open"></i></div>
+                    <div class="timeline-content">
+                        <span class="badge">2º Ano Fundamental</span>
+                        <h3>Lendo e Descobrindo o Mundo</h3>
+                        <p class="preview">Consolidação da leitura, primeiras apresentações e feiras culturais...</p>
+                        <div class="details hidden">
+                            <p>[Adicione aqui sua história do 2º ano: livros marcantes, passeios escolares e descobertas.]</p>
+                            <img src="assets/2-ano.jpg" alt="2º Ano" onerror="this.src='https://via.placeholder.com/400x200/e0e7ff/3730a3?text=Foto+do+2º+Ano'">
+                        </div>
+                        <button class="btn-toggle">Ver Mais</button>
+                    </div>
+                </div>
+
+                <!-- (Repita a estrutura para os anos de 3º a 9º ano conforme desejar) -->
+                
+                <!-- Ensino Médio -->
+                <div class="timeline-category">Ensino Médio</div>
+
+                <!-- 1º Ensino Médio -->
+                <div class="timeline-item" data-year="1-medio">
+                    <div class="timeline-dot"><i class="fa-solid fa-atom"></i></div>
+                    <div class="timeline-content">
+                        <span class="badge badge-em">1º Ano do Ensino Médio</span>
+                        <h3>A Transição e Novos Desafios</h3>
+                        <p class="preview">Chegada ao ensino médio, novas matérias como Física e Química, e novas amizades...</p>
+                        <div class="details hidden">
+                            <p>[Adicione aqui sua história do 1º ano do EM: como foi o choque de matérias, novos grupos de amigos e eventos.]</p>
+                            <img src="assets/1-medio.jpg" alt="1º Ensino Médio" onerror="this.src='https://via.placeholder.com/400x200/c7d2fe/312e81?text=Foto+do+1º+EM'">
+                        </div>
+                        <button class="btn-toggle">Ver Mais</button>
+                    </div>
+                </div>
+
+                <!-- 2º Ensino Médio -->
+                <div class="timeline-item" data-year="2-medio">
+                    <div class="timeline-dot"><i class="fa-solid fa-flask"></i></div>
+                    <div class="timeline-content">
+                        <span class="badge badge-em">2º Ano do Ensino Médio</span>
+                        <h3>Foco e Aprofundamento</h3>
+                        <p class="preview">Projetos interdisciplinares, simulados e o amadurecimento dos estudos...</p>
+                        <div class="details hidden">
+                            <p>[Adicione sua história do 2º ano do EM: treinos para o ENEM, vestibulares seriados, viagens ou feiras de ciências.]</p>
+                            <img src="assets/2-medio.jpg" alt="2º Ensino Médio" onerror="this.src='https://via.placeholder.com/400x200/c7d2fe/312e81?text=Foto+do+2º+EM'">
+                        </div>
+                        <button class="btn-toggle">Ver Mais</button>
+                    </div>
+                </div>
+
+                <!-- 3º Ensino Médio -->
+                <div class="timeline-item" data-year="3-medio">
+                    <div class="timeline-dot"><i class="fa-solid fa-award"></i></div>
+                    <div class="timeline-content">
+                        <span class="badge badge-em">3º Ano do Ensino Médio</span>
+                        <h3>A Reta Final e a Formatura</h3>
+                        <p class="preview">O ano de despedida, foco total nos exames, trotes, viagem de formatura e saudades...</p>
+                        <div class="details hidden">
+                            <p>[Adicione sua história do 3º ano: o clima da sala de aula na reta final, a preparação para o vestibular e a emoção da formatura.]</p>
+                            <img src="assets/3-medio.jpg" alt="3º Ensino Médio" onerror="this.src='https://via.placeholder.com/400x200/c7d2fe/312e81?text=Foto+do+3º+EM'">
+                        </div>
+                        <button class="btn-toggle">Ver Mais</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção 2: Portfólio de Redações do Ensino Médio -->
+        <section id="redacoes" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-pen-nib"></i> Portfólio de Redações (Ensino Médio)</h2>
+            <p class="section-desc">Textos, ensaios e redações modelo ENEM/Vestibulares produzidos durante o Ensino Médio.</p>
+
+            <!-- Filtros por Categoria -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="enem">Modelo ENEM</button>
+                <button class="filter-btn" data-filter="opiniao">Artigo de Opinião</button>
+                <button class="filter-btn" data-filter="literaria">Análise Literária</button>
+            </div>
+
+            <!-- Grid de Redações -->
+            <div class="essay-grid">
+
+                <!-- Redação 1 -->
+                <article class="essay-card" data-category="enem">
+                    <div class="essay-header">
+                        <span class="essay-tag">ENEM</span>
+                        <span class="essay-score"><i class="fa-solid fa-star"></i> Nota: 960</span>
+                    </div>
+                    <h3>Desafios da Educação na Era Digital</h3>
+                    <p class="essay-meta"><i class="fa-regular fa-calendar"></i> 3º Ano do Ensino Médio</p>
+                    <p class="essay-excerpt">"A inclusão de tecnologias no ambiente escolar exige mais do que equipamentos: demanda letramento digital e mediação pedagógica..."</p>
+                    <button class="btn-read-essay" data-essay="essay-1">Ler Redação Completa</button>
+                </article>
+
+                <!-- Redação 2 -->
+                <article class="essay-card" data-category="opiniao">
+                    <div class="essay-header">
+                        <span class="essay-tag">Artigo de Opinião</span>
+                        <span class="essay-score"><i class="fa-solid fa-star"></i> Nota: 10/10</span>
+                    </div>
+                    <h3>O Impacto das Redes Sociais na Juventude</h3>
+                    <p class="essay-meta"><i class="fa-regular fa-calendar"></i> 2º Ano do Ensino Médio</p>
+                    <p class="essay-excerpt">"Entre a conexão contínua e a busca por aprovação instantânea, os jovens enfrentam novos dilemas psicológicos..."</p>
+                    <button class="btn-read-essay" data-essay="essay-2">Ler Redação Completa</button>
+                </article>
+
+                <!-- Redação 3 -->
+                <article class="essay-card" data-category="literaria">
+                    <div class="essay-header">
+                        <span class="essay-tag">Análise Literária</span>
+                        <span class="essay-score"><i class="fa-solid fa-star"></i> Nota: 9.5</span>
+                    </div>
+                    <h3>A Crítica Social em Machado de Assis</h3>
+                    <p class="essay-meta"><i class="fa-regular fa-calendar"></i> 1º Ano do Ensino Médio</p>
+                    <p class="essay-excerpt">"Em Memórias Póstumas de Brás Cubas, o autor expõe com ironia as fragilidades e aparências da sociedade do século XIX..."</p>
+                    <button class="btn-read-essay" data-essay="essay-3">Ler Redação Completa</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção 3: Galeria de Fotos / Assets -->
+        <section id="galeria" class="section">
+            <h2 class="section-title"><i class="fa-solid fa-photo-film"></i> Galeria de Memórias</h2>
+            <p class="section-desc">Registros marcantes ao longo da trajetória.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/galeria-1.jpg" alt="Memória Escolar" onerror="this.src='https://via.placeholder.com/300x200/4f46e5/ffffff?text=Feira+de+Ciencias'">
+                    <div class="gallery-caption">Feira de Ciências</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria-2.jpg" alt="Memória Escolar" onerror="this.src='https://via.placeholder.com/300x200/4f46e5/ffffff?text=Jogos+Escolares'">
+                    <div class="gallery-caption">Jogos Escolares</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria-3.jpg" alt="Memória Escolar" onerror="this.src='https://via.placeholder.com/300x200/4f46e5/ffffff?text=Formatura'">
+                    <div class="gallery-caption">Formatura</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal para Leitura das Redações -->
+    <div id="essay-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- O conteúdo da redação selecionada será inserido aqui pelo script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Meu Portfólio Escolar &copy; <span id="year"></span> | Desenvolvido para guardar memórias inesquecíveis.</p>
+    </footer>
+
+    <!-- JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
